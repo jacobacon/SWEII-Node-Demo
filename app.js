@@ -6,6 +6,10 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://127.0.0.1/test', {useNewUrlParser: true});
+
 var app = express();
 
 app.use(logger('dev'));
