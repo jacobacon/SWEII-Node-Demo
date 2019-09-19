@@ -1,6 +1,13 @@
 #!/usr/bin/env node
 
 /**
+ * File: www
+ * Author: AUTO_GENERATED
+ * Last Edit Date: 
+ * Description: Generated startup script for starting Express
+ */
+
+/**
  * Module dependencies.
  */
 

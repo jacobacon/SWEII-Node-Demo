@@ -1,6 +1,14 @@
+/**
+ * File: user.js
+ * Author: Jacob Beneski
+ * Last Edit Date: 9-18-19 
+ * Description: Mongoose Schema for defining the User schema
+ */
+
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
+// Define the schema
 let userSchema = new Schema({
     customerName: {
         type:String,
@@ -15,4 +23,5 @@ let userSchema = new Schema({
 
 });
 
-let Customer = mongoose.model('Customer', userSchema);
+//Register the schema with mongoose
+let Customer = mongoose.model('User', userSchema);
